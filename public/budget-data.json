@@ -1,19 +1,20 @@
 {
+    "currency": "EUR",
     "income": [{
         "category": "Salary",
-        "amount": 10000
+        "amount": 11234
     }],
     "expenses": {
         "Savings": [{
             "category": "Bank",
-            "amount": 1000
+            "amount": 3304
         }],
         "Expenses": [{
             "category": "Rent",
-            "amount": 2500
+            "amount": 5015
         }, {
             "category": "Food",
-            "amount": 1000
+            "amount": 2915
         }]
     }
 }
