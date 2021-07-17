@@ -1,0 +1,19 @@
+{
+    "income": [{
+        "category": "Salary",
+        "amount": 10000
+    }],
+    "expenses": {
+        "Savings": [{
+            "category": "Bank",
+            "amount": 1000
+        }],
+        "Expenses": [{
+            "category": "Rent",
+            "amount": 2500
+        }, {
+            "category": "Food",
+            "amount": 1000
+        }]
+    }
+}
