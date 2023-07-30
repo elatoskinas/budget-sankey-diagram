@@ -1,5 +1,5 @@
 {
-  "name": "finance",
+  "name": "budget-sankey-diagram",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
