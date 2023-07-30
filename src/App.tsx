@@ -92,7 +92,7 @@ function App() {
   const [sankeyData, setSankeyData] = useState({});
 
   useEffect(() => {
-      fetch("./budget-data-sample.json").then(async (res) => {
+      fetch("./budget-data.json").then(async (res) => {
           const resJson = await res;
           const budgetData: BudgetData = await resJson.json();
           const newSankeyData = transformBudgetDataToSankeyData(budgetData);
@@ -104,7 +104,7 @@ function App() {
   return (
     <div className="App">
         <Chart 
-          width={1200}
+          width={1000}
           chartType="Sankey"
           data={sankeyData}
           options={{
